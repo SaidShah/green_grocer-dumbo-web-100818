@@ -26,7 +26,7 @@ new_cart = {}
     coupons.each do |each_coupon|
       
        
-     binding.pry
+   
     
      end
    end
