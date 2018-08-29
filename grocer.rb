@@ -41,14 +41,13 @@ new_cart = {}
           }
           
           
-          end
+   end
     end
      end
-   end
- end
-     new_cart
-
+      end
        end
+        new_cart
+         end
 
 
 
