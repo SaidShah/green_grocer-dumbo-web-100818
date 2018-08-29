@@ -22,6 +22,7 @@ new_cart = consolidate_cart(cart)
   coupons.each do |each_coupon|
     each_coupon.each do |item, values|
       cart.each do |cart_item, item_values|
+        
         if cart_item == values
           binding.pry
           new_cart["#{values} W/COUPON"] = {}
