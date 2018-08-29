@@ -33,6 +33,7 @@ new_cart.merge!(cart)
         else cart_item == values && !new_cart.include?("#{values} W/COUPON")
           new_cart["#{values} W/COUPON"]={ price: each_coupon[:cost],clearance: true ,count: each_coupon[:num] }
         end
+      end
 end
  end
   end  
