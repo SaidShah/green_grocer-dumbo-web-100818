@@ -25,7 +25,7 @@ new_cart = {}
     new_cart[cart_item]=item_values
     coupons.each do |each_coupon|
       
-       if cart_item == coupons[:item]
+       if cart_item == each_coupon[:item]
       binding.pry
     
      end
