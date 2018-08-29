@@ -21,10 +21,11 @@ end
 def apply_coupons(cart, coupons)
 new_cart = {}
 
-  coupons.each do |each_coupon|
+  
     each_coupon.each do |item, values|
+      new_cart[item]=values
       cart.each do |cart_item, item_values|
-       
+       coupons.each do |each_coupon|
      
    end      
      end
