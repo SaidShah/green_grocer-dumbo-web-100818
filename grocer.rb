@@ -6,7 +6,7 @@ def consolidate_cart(cart)
     remove_duplicates = cart.uniq
       remove_duplicates.each do |each_item|
         each_item.each {|x,y| cart_hash[x.to_s]=y}
-end
+    end
   cart_hash.each {|name, value| cart_hash[name][:count]=0}
     cart.each do |each_piece|
      each_piece.each {|name,stats| cart_hash[name][:count]+=1}
