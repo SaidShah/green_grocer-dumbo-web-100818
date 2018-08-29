@@ -26,6 +26,7 @@ new_cart.merge!(cart)
       cart.each do |cart_item, item_values|
         if cart_item == values
           new_cart["#{values} W/COUPON"]={}
+          
           binding.pry 
           
  end
