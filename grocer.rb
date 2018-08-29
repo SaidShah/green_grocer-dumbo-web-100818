@@ -67,16 +67,18 @@ end
    end
 
 def checkout(cart, coupons)
-
+  
+  final_price = 0.00
 
   cart = consolidate_cart(cart)
   cart = apply_coupons(cart,coupons)
   cart = apply_clearance(cart)
   cart.each do |cart_items ,item_values|
-    
-  binding.pry
+    final_price += item_values[:price]
+ 
 
 end
+binding.pry
 end
 
 
