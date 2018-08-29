@@ -56,12 +56,12 @@ new_cart = {}
 
 
 def apply_clearance(cart)
-  num_given = 3.00
-  final_price = (num_given-(num_given*0.20)).to_f 
-binding.pry
 
+cart.each do |cart_item, item_value|
+  binding.pry
 
 end
+  end
 
 def checkout(cart, coupons)
   # code here
