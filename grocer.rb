@@ -23,7 +23,7 @@ new_cart = {}
     each_coupon.each do |item, values|
       cart.each do |cart_item, item_values|
         binding.pry
-        if item == cart_item 
+        if cart_item == values
           
 end
  end  
