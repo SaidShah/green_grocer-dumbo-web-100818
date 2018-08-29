@@ -28,6 +28,7 @@ new_cart.merge!(cart)
      
    end      
      end
+   end
      new_cart
 
        end
