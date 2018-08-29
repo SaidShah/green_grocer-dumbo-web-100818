@@ -67,8 +67,7 @@ end
 
 
 def calc_discount(num_given)
-(num_given*.20) - num_given
-
+((num_given*.20) - num_given)
 end
 
 
