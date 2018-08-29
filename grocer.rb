@@ -56,9 +56,52 @@ new_cart = {}
 
 
 def apply_clearance(cart)
-  # code here
+
+
+
 end
 
 def checkout(cart, coupons)
   # code here
 end
+
+
+def calc_discount(num_given)
+(num_given*.20) - num_given
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
