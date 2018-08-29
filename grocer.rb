@@ -60,9 +60,7 @@ def apply_clearance(cart)
 cart.each do |cart_item, item_value|
   item_value.each do |field, value|
     if field == :clearance && item_value[:clearance]==true 
-      
         item_value[:price] = calc_discount(item_value[:price])
-       # binding.pry
 end
  end
   end
