@@ -22,9 +22,9 @@ new_cart = {}
   coupons.each do |each_coupon|
     each_coupon.each do |item, values|
       cart.each do |cart_item, item_values|
-        
+        binding.pry
         if item == cart_item 
-          binding.pry
+          
 end
  end  
    end      
