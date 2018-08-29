@@ -28,7 +28,7 @@ new_cart = {}
        if cart_item == each_coupon[:item]
          
          if item_values[:count] >= each_coupon[:num]
-           item_values[:count]-=
+           item_values[:count]-=each_coupon[:num]
          
           if new_cart.include?("#{cart_item} W/COUPON")
             new_cart["#{cart_item} W/COUPON"][:count] += 1 
