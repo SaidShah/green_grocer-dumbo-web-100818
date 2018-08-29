@@ -72,8 +72,7 @@ end
 
 
 def calc_discount(num_given)
-final_price = (num_given-(num_given*0.20)).to_f 
-final_price
+(num_given-(num_given*0.20)).to_f 
 end
 
 
