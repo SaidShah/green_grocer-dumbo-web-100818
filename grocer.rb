@@ -25,7 +25,7 @@ new_cart.merge!(cart)
     each_coupon.each do |item, values|
       cart.each do |cart_item, item_values|
         if cart_item == values
-          new_cart["#{values} W/COUPON"]={ price: each_coupon[:cost], ,count: each_coupon[:num], clearance: true}
+          new_cart["#{values} W/COUPON"]={ price: each_coupon[:cost],clearance: true ,count: each_coupon[:num] }
           
           binding.pry
  end
