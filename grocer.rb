@@ -71,9 +71,6 @@ def checkout(cart, coupons)
 end
 
 
-def calc_discount(num_given)
-
-end
 
 
 
