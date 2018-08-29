@@ -21,13 +21,11 @@ end
 def apply_coupons(cart, coupons)
 new_cart = {}
 
-  
-    each_coupon.each do |item, values|
-      new_cart[item]=values
+    coupons.each do |each_coupon|
       cart.each do |cart_item, item_values|
-       coupons.each do |each_coupon|
-     binding.pry
-   end      
+       
+     
+    
      end
    end
      new_cart
