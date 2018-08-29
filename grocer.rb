@@ -68,7 +68,7 @@ end
 
 def checkout(cart, coupons)
 binding.pry
-if cart.length >= 1 
+
   
   
   
