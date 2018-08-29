@@ -34,7 +34,11 @@ new_cart = {}
             new_cart["#{cart_item} W/COUPON"][:count] += 1 
           
         else 
-          new_cart[]
+          new_cart["#{cart_item} W/COUPON"] = {
+            :price => each_coupon[:cost],
+            :clearance => true,
+            :count => each_coupon[:num]
+          }
           
           
           end
