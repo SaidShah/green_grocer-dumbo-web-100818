@@ -26,7 +26,8 @@ new_cart = {}
     coupons.each do |each_coupon|
       
        if cart_item == each_coupon[:item]
-      binding.pry
+          if new_cart.include?("#{cart_item} W/COUPON")
+            new_cart[]
     
      end
    end
