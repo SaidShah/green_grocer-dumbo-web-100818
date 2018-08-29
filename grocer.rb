@@ -58,10 +58,13 @@ new_cart = {}
 def apply_clearance(cart)
 
 cart.each do |cart_item, item_value|
-  binding.pry
-
+  item_value.each do |field, value|
+    if value == [:clearance] && item_value[:clearance]==true 
+        item_value[:price] = calc_discount()
 end
+ end
   end
+   end
 
 def checkout(cart, coupons)
   # code here
