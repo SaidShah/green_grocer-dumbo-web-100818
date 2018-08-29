@@ -12,7 +12,7 @@ def consolidate_cart(cart)
      each_piece.each {|name,stats| cart_hash[name][:count]+=1}
        end
          cart_hash
-          binding.pry
+         
 end
 
 
@@ -20,7 +20,7 @@ end
 
 def apply_coupons(cart, coupons)
 new_cart = consolidate_cart(cart)
-
+ binding.pry
   coupons.each do |each_coupon|
     each_coupon.each do |item, values|
       cart.each do |cart_item, item_values|
