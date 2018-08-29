@@ -56,7 +56,7 @@ new_cart = {}
 
 
 def apply_clearance(cart)
-
+binding.pry
 
 
 end
@@ -68,7 +68,6 @@ end
 
 def calc_discount(num_given)
 final_price = ((num_given*0.20) - num_given).to_f 
-binding.pry
 final_price
 end
 
