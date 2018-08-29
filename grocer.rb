@@ -20,11 +20,7 @@ end
 
 def apply_coupons(cart, coupons)
 new_cart = {}
-cart.collect {|x,y| new_cart[x] = y }
- coupons.each do |coupon_items|
-   coupon_items.each do |each_coupon_code, each_coupon_value|
-     new_cart[each_coupon_value +" /WCOUPON"]= {each_coupon_code => each_coupon_value}
-    
+binding.pry
      
   end
  
