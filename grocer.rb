@@ -36,7 +36,7 @@ new_cart = {}
         else 
           new_cart["#{cart_item} W/COUPON"] = {
             :price => each_coupon[:cost],
-            :clearance => true,
+            :clearance => each_coupon[:clearance],
             :count => each_coupon[:num]
           }
           
