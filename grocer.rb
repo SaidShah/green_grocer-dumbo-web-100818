@@ -32,6 +32,12 @@ new_cart = {}
          
           if new_cart.include?("#{cart_item} W/COUPON")
             new_cart["#{cart_item} W/COUPON"][:count] += 1 
+          
+        else 
+          new_cart[]
+          
+          
+          end
     end
      end
    end
