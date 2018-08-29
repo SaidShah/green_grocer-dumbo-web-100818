@@ -74,9 +74,10 @@ def checkout(cart, coupons)
   cart = apply_coupons(cart,coupons)
   cart = apply_clearance(cart)
   cart.each do |cart_items ,item_values|
-    final_price += item_values[:price]
+    if item_values[:count] > 0
+    final_price += (item_values[:price]*item_values[:count])
  
-
+end 
 end
   final_price > 100.00 ? final_price * 0.90 : final_price
 end
