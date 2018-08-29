@@ -12,6 +12,7 @@ def consolidate_cart(cart)
      each_piece.each {|name,stats| cart_hash[name][:count]+=1}
        end
          cart_hash
+         
 end
 
 
