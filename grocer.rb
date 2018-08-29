@@ -25,8 +25,8 @@ new_cart = {}
         if cart_item == values
           new_cart["#{values} W/COUPON"] = {}
            binding.pry
-end
- end  
+ end
+  end  
    end      
      end
        end
