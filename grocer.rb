@@ -67,11 +67,11 @@ end
    end
 
 def checkout(cart, coupons)
-
- num = cart.length 
- 
- num2 = cart.size 
-  binding.pry
+binding.pry
+if cart.length >= 1 
+  
+  
+  
 
 
 end
