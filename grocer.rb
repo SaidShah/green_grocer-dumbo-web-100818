@@ -21,10 +21,7 @@ end
 def apply_coupons(cart, coupons)
 new_cart = {}
 binding.pry
-     
-  end
- 
- end
+
 
 end
 
