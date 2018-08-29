@@ -78,7 +78,7 @@ def checkout(cart, coupons)
  
 
 end
-binding.pry
+  final_price > 100.00 ? final_price * 0.90 : final_price
 end
 
 
