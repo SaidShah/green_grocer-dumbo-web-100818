@@ -28,12 +28,13 @@ new_cart.merge!(cart)
           new_cart["#{values} W/COUPON"]={ price: each_coupon[:cost],clearance: true ,count: each_coupon[:num] }
           if new_cart[values][:count] >= each_coupon[:num]
           new_cart[values][:count]-=each_coupon[:num]
-          binding.pry
+     
 end
  end
   end  
    end      
      end
+     new_cart
        end
 
 
