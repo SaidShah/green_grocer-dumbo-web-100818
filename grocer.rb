@@ -68,7 +68,10 @@ end
 
 def checkout(cart, coupons)
 
-
+ num = cart.length 
+ 
+ num2 = cart.size 
+  binding.pry
 
 
 end
