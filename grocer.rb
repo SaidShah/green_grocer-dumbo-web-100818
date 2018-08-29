@@ -27,6 +27,7 @@ new_cart.merge!(cart)
         
         if cart_item == values
           new_cart["#{values} W/COUPON"]={}
+          
            if item == :num 
               binding.pry 
              new_cart["#{values} W/COUPON"] = {count => values}
