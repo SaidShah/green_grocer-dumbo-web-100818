@@ -26,7 +26,7 @@ new_cart = {}
       new_cart[item]=values
       cart.each do |cart_item, item_values|
        coupons.each do |each_coupon|
-     
+     binding.pry
    end      
      end
    end
