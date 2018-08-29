@@ -19,7 +19,7 @@ end
 
 
 def apply_coupons(cart, coupons)
-new_cart = consolidate_cart(cart)
+new_cart = cart
  binding.pry
   coupons.each do |each_coupon|
     each_coupon.each do |item, values|
