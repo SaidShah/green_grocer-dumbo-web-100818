@@ -24,7 +24,8 @@ new_cart.merge!(cart)
   coupons.each do |each_coupon|
     each_coupon.each do |item, values|
       cart.each do |cart_item, item_values|
-        if cart_item == values && !new_cart["#{values} W/COUPON"]
+        if new_cart.include?()
+        if cart_item == values && !new_cart.include?("#{values} W/COUPON")
           new_cart["#{values} W/COUPON"]={ price: each_coupon[:cost],clearance: true ,count: each_coupon[:num] }
           if new_cart[values][:count] >= each_coupon[:num]
           new_cart[values][:count]-=each_coupon[:num]
