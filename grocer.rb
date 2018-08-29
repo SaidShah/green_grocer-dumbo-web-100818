@@ -26,7 +26,7 @@ new_cart = cart
       cart.each do |cart_item, item_values|
         
         if cart_item == values
-          new_cart[values.to_h+" W/COUPON"] = {}
+          new_cart[" W/COUPON"] = {}
            binding.pry 
  end
   end  
