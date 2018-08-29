@@ -26,6 +26,10 @@ new_cart = {}
     coupons.each do |each_coupon|
       
        if cart_item == each_coupon[:item]
+         
+         if item_values[:count] >= each_coupon[:num]
+           item_values[:count]-=
+         
           if new_cart.include?("#{cart_item} W/COUPON")
             new_cart["#{cart_item} W/COUPON"][:count] += 1 
     end
