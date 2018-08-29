@@ -31,6 +31,7 @@ new_cart.merge!(cart)
              new_cart["#{values} W/COUPON"][:count] = values
              new_cart[values][:count]=-values
            binding.pry 
+         end
  end
   end  
    end      
