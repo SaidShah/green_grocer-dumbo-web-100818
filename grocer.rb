@@ -72,7 +72,7 @@ binding.pry
   cart = consolidate_cart(cart)
   cart = apply_coupons(cart,coupons)
   cart = apply_clearance(cart)
-  cart.each do |item,value|
+  cart.each do |cart_items ,item_values|
     
   binding.pry
 
