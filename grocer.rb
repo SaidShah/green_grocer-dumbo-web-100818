@@ -20,7 +20,9 @@ end
 
 def apply_coupons(cart, coupons)
 new_cart = {}
-cart.each do |cart_item, item_values|
+
+  cart.each do |cart_item, item_values|
+    new_cart[cart_item]=item_values
     coupons.each do |each_coupon|
       
        
