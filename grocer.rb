@@ -29,6 +29,7 @@ new_cart.merge!(cart)
           if new_cart[values][:count] >= each_coupon[:num]
           new_cart[values][:count]-=each_coupon[:num]
           binding.pry
+end
  end
   end  
    end      
