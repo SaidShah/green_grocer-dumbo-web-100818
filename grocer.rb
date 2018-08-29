@@ -28,7 +28,7 @@ new_cart.merge!(cart)
         if cart_item == values
           new_cart["#{values} W/COUPON"]={}
            if item == :num 
-             new_cart["#{values} W/COUPON"][:count] = values
+             new_cart["#{values} W/COUPON"][:count] => values
              binding.pry 
              new_cart[values][:count]=-values
            
