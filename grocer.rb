@@ -35,6 +35,7 @@ end
    end      
      end
      new_cart
+     binding.pry
        end
 
 
