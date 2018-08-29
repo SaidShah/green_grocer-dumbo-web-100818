@@ -19,8 +19,8 @@ end
 
 
 def apply_coupons(cart, coupons)
-new_cart = cart
-
+new_cart = {}
+new_cart.merge!(cart)
   coupons.each do |each_coupon|
     each_coupon.each do |item, values|
       cart.each do |cart_item, item_values|
